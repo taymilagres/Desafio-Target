@@ -1,4 +1,4 @@
-| ![image](https://github.com/user-attachments/assets/387b5b1e-49fd-424e-986e-8fe78918829a) | **DESAFIO TARGET - Desenvolvedor de Frontend 💻** |
+| ![image](https://github.com/user-attachments/assets/387b5b1e-49fd-424e-986e-8fe78918829a) | **DESAFIO TARGET - Desenvolvedor Frontend 💻** |
 |-----------------------------------------------|-------------------|
 
 
