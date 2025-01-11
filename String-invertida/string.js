@@ -15,7 +15,7 @@ function inverterString(str) {
 }
 
 
-rl.question('Digite uma frase: ', (frase) => {
+rl.question('Digite uma frase para ser invertida: ', (frase) => {
   console.log('Frase invertida: ' + inverterString(frase));
   rl.close(); 
 });
