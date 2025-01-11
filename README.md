@@ -13,7 +13,7 @@ _Obs: É necessário que o node.js esteja instalado na sua máquina_
   git clone https://github.com/taymilagres/Desafio-Target.git
 ```
 
-- Abra o console do VScode dentro da pasta desejada
+- Abra o console do VScode dentro da pasta desejada:
 
  ```
   cd/nome-da-pasta
