@@ -4,6 +4,8 @@
 
 ## Como testar a aplicação?
 
+_Obs: É necessário que o node.js esteja instalado na sua máquina_
+
 - Abra o Visual Studio Code
 - Clone o repositório na sua máquina:
  
@@ -29,6 +31,6 @@
  node estados.js
 ```
 
-_Obs: É necessário que o node.js esteja instalado na sua máquina_
+
 
 
