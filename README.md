@@ -17,7 +17,7 @@
   cd/nome-da-pasta
 ```
 
-- Digite no terminal do VScode:
+- Digite no terminal do VScode e execute o comando:
 ```
   node nome-do-arquivo.js
 ```
