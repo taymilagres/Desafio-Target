@@ -3,6 +3,10 @@
 
 
 ## Como testar a aplicação?
+- Terminal do VScode
+- Deploy Web: https://desafio-target-neon.vercel.app/
+
+### Terminal do VScode:
 
 _Obs: É necessário que o node.js esteja instalado na sua máquina_
 
