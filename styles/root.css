@@ -1,0 +1,27 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=REM:ital,wght@0,100..900;1,100..900&family=Righteous&display=swap');
+
+html{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+:root {
+    /* Definindo cores */
+    --cor-titulo: #8B0304; /* Azul */
+    --cor-secundaria: #830203; /* Verde */
+    --cor-hover: #610303;
+    --cor-texto: #502c2c; /* Cinza escuro */
+    --cor-texto-branco: #ffffff; /* Cinza escuro */
+    --cor-fundo: #ecf0f1; /* Cinza claro */
+    --cor-linha-footer: #d0d0d0;
+    --cor-footer: #616161;
+    
+    /* Definindo tipografia */
+    --fonte-principal: 'Poppins', sans-serif;
+    --tam-titulo: 26px;
+    --tam-texto: 16px;
+    --tam-texto-secundario: 15px;
+    --tam-span: 12px;
+
+  }

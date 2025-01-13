@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="fibonacci.css">
+    <link rel="stylesheet" href="../../styles/style.css">
+    <title>Desafio Target</title>
+</head>
+<body>
+    <header>
+        <section class="title">
+            <img src="../../img/logo-target.png" alt="Logo Target" class="logoTarget">
+            <h2>Desafio Target</h2>
+        </section>
+    </header>
+
+    <main>
+        <div class="containerFibonacci">
+            <section class="fibonacciImg">
+                <img src="../../img/fibonacciimg.png" alt="grafico">
+            </section>
+            <section class="ask">
+                <h2>Questão 02:</h2>
+                <p>Insira um número inteiro no campo abaixo e verifique se ele pertence ou não, à sequência Fibonacci:</p>
+
+                <section class="fibonacciForm">
+                    <input type="number" name="fibonacciNumber" id="fibonacciNumber" class="fibonacciInput" placeholder="Insira um número">
+                    <button id="calcular" type="button" onclick="ChecarFibonacci()">Verificar</button>
+                </section> 
+
+                <section id="resultado">
+                    <h3>Resultados:</h3>
+                    
+                    <div id="resultadosList"></div>
+                    <div id="respostafibonacci"></div>
+                </section>
+            </section>
+        </div>
+    </main>  
+
+    <footer>
+        <span>Desenvolvido por Tayane Milagres | 01/2025</span>
+    </footer>
+
+    <script src="fibonacci.js"></script>
+
+</body>
+</html>

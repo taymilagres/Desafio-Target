@@ -1,0 +1,130 @@
+.data {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+    padding: 20px;
+    width: 50%;
+}
+
+.card {
+    background-color: #f4f4f4;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    padding: 10px;
+    width: 7vw;
+    box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.1);
+    text-align: center;
+}
+
+.card p {
+    margin: 5px 0;
+    font-size: var(--tam-texto-secundario);
+    font-family: var(--fonte-principal);
+    color: var(--cor-footer);
+}
+
+.card strong {
+    color: var(--cor-footer);
+}
+
+.textDia strong{
+    color: var(--cor-secundaria);
+}
+
+/* Faturamento */
+main {
+    display: flex;
+    flex-direction: row;
+    margin: auto;
+}
+
+.ask{
+    width: 40vw;
+    text-align: center;
+    margin-left: 2%;
+    
+}
+
+.ask ul li {
+    font-family: var(--fonte-principal);
+    font-size: var(--tam-texto-secundario);
+    text-align: left;
+    
+}
+
+
+.ask button{
+    background-color: var(--cor-secundaria) ;
+    width: 20vw;
+    height: 6vh;
+    border-radius: 10px;
+    color: var(--cor-texto-branco);
+    font-family: var(--fonte-principal);
+    font-size: 0.9rem;
+    border: none;
+    margin: 2%;
+    cursor: pointer;
+}
+
+.ask button:hover{
+    background-color: var(--cor-hover);
+    transform: scale(1.05); 
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
+}
+
+.ask p {
+    font-family: var(--fonte-principal);
+    font-size: var(--tam-texto-secundario);
+}
+
+
+/*Resultados */
+#resultado {
+    background-color: #fff; 
+    padding: 20px;
+    border-radius: 8px; 
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1); 
+    display: flex; 
+    flex-wrap: wrap; 
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+}
+
+#resultado h3 {
+    color: var(--cor-secundaria);
+    font-family: var(--fonte-principal);
+    font-size: var(--tam-titulo);
+    text-align: center;
+    margin-bottom: 10px;
+    font-weight: 500;
+}
+
+#resultadosList {
+    display: flex; 
+    font-size: var(--tam-texto-secundario);
+    font-family: var(--fonte-principal);
+    width: auto;
+    min-width: 50%;
+    height: auto;
+    border-radius: 10px;
+    padding: 0%;
+    justify-content: left;
+    flex-direction: column;
+
+}
+
+.strongResult{
+    font-family: var(--fonte-principal);
+    font-size: var(--tam-texto-secundario);
+    background-color:#ecf0f1;
+    min-width: 100%;
+    width: auto;
+    height: 4vh;
+    padding: 4%;
+    border-radius: 10px;
+}
+
+.strongResult strong{
+    color: var(--cor-titulo);
+}

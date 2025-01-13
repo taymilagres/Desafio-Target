@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../../styles/style.css">
+    <link rel="stylesheet" href="faturamento.css">
+    <title>Desafio Target</title>
+</head>
+<body>
+    <header>
+        <section class="title">
+            <img src="../../img/logo-target.png" alt="Logo Target" class="logoTarget">
+            <h2>Desafio Target</h2>
+        </section>
+    </header>
+
+    <main>
+        <section class="data"></section>
+        
+        <div class="containerAsk">
+            <section class="ask">
+                <h2>Questão 03:</h2>
+                <p>De acordo com os dados ao lado, descubra:
+                    <ul>
+                        <li>O menor valor de faturamento ocorrido em um dia do mês</li>
+                        <li>O maior valor de faturamento ocorrido em um dia do mês</li>
+                        <li>Número de dias no mês em que o valor de faturamento diário foi superior à média mensal</li>
+                    </ul>
+                </p>
+                <button onclick="exibirResultados()">Conferir resultados</button>
+            </section>
+    
+            <section id="resultado">
+                <h3>Resultados:</h3>
+                <div id="resultadosList"></div>
+            </section>
+        </div>
+        
+    </main>
+
+    <footer>
+        <span>Desenvolvido por Tayane Milagres | 01/2025</span>
+    </footer>
+
+    <script src="data/data.js"></script>
+    <script src="faturamento.js"></script>
+</body>
+</html>

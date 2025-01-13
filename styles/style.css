@@ -1,0 +1,116 @@
+@import url('root.css');
+
+
+.logoTarget{
+    width: 4em;
+    height: 4em;
+}
+
+.headerContainer{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.download-btn button {
+    background-color: transparent;
+    font-family: var(--fonte-principal);
+    font-size: var(--tam-texto);
+    color: var(--cor-secundaria);
+    padding: 5px 20px;
+    border: solid 2px var(--cor-secundaria);
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+.download-btn button:hover {
+    background-color: var(--cor-hover);
+    color: var(--cor-texto-branco);
+    
+}
+
+
+.imgHome{
+    width: 34vw;
+    height: auto;
+    border-radius: 15px;
+}
+
+h2{
+    font-family: var(--fonte-principal);
+    font-size: var(--tam-titulo);
+    color: var(--cor-titulo);
+    font-weight: 500;
+}
+
+.title{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    margin-bottom: 1%;
+}
+
+.content{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    margin: auto;
+}
+
+.answers{
+    display: flex;
+    flex-direction: column;
+    font-family: var(--fonte-principal);
+    font-size: var(--tam-texto);
+    color: var(--cor-texto);
+    font-weight: 300;
+    width: 32%;
+    align-items: center;
+    justify-content: center;
+    padding-left: 5%;
+
+}
+
+.answers p {
+    text-align: center;
+    margin-bottom: 8%;
+}
+
+.answers button{
+    background-color: var(--cor-secundaria) ;
+    width: 20vw;
+    height: 6vh;
+    border-radius: 10px;
+    color: var(--cor-texto-branco);
+    font-family: var(--fonte-principal);
+    font-size: 0.9rem;
+    border: none;
+    margin: 2%;
+    cursor: pointer;
+}
+
+.answers button:hover {
+    background-color: var(--cor-hover);
+    transform: scale(1.05); 
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
+}
+
+footer{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-family: var(--fonte-principal);
+    font-size: 12px;
+    width: 100%;
+    height: auto;
+    border-top: solid 0.5px var(--cor-linha-footer);
+    margin-top: 4%;
+}
+
+footer span{
+    color: var(--cor-footer);
+    margin-top: 10px;
+}
