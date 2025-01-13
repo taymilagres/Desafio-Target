@@ -5,6 +5,10 @@
 ## Como testar a aplicação?
 - Terminal do VScode
 - Deploy Web: https://desafio-target-neon.vercel.app/
+  
+![screencapture-desafio-target-neon-vercel-app-2025-01-12-23_52_05](https://github.com/user-attachments/assets/72e5b960-9d15-4869-9652-3fc3623b4dc8)
+
+  
 
 ### Terminal do VScode:
 
